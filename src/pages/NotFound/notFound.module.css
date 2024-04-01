@@ -1,0 +1,22 @@
+
+.errorCode{
+    font-size: 150px;
+}
+.errorPage{
+    background: #000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.errorBtn{
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 10px 50px;
+    font-size: 25px;
+}

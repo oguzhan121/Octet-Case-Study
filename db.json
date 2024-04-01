@@ -1,0 +1,92 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "name": "Stranger Things",
+        "year": 2015,
+        "country": "USA",
+        "imdb": "86.0",
+        "category": "Action, Adventure, Horror",
+        "isTvSeries": true,
+        "poster":"https://i.ibb.co/ZXhr56S/stranger-things.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "2",
+        "name": "Batman Begins",
+        "year": 2005,
+        "country": "USA",
+        "imdb": "82.0",
+        "category": "Action, Adventure",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/qBYmWjr/batman.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "3",
+        "name": "Spider-Man : Into The Spider Verse",
+        "year": 2018,
+        "country": "USA",
+        "imdb": "84.0",
+        "category": "Animation, Action, Adventure",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/wgJyDdn/spiderman.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "4",
+        "name": "Dunkirk",
+        "year": 2017,
+        "country": "USA",
+        "imdb": "78.0",
+        "category": "Action, Drama, History",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/T0xZLFV/dunkirk.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "5",
+        "name": "Dune",
+        "year": 2021,
+        "country": "USA",
+        "imdb": "84.0",
+        "category": "Action, Adventure, Drama",
+        "isTvSeries": true,
+        "poster":"https://i.ibb.co/Vgr55Wf/dune.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "6",
+        "name": "No Time To Die",
+        "year": 2021,
+        "country": "USA",
+        "imdb": "76.0",
+        "category": "Action, Adventure, Thriller",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/yYPWwMX/no-time-to-die.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "7",
+        "name": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "country": "USA",
+        "imdb": "79.0",
+        "category": "Action, Adventure, Fantasy",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/2yWF46H/shang-chi.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      },
+      {
+        "id": "8",
+        "name": "Don't Breathe 2",
+        "year": 2021,
+        "country": "USA",
+        "imdb": "61.0",
+        "category": "Action, Drama, Horror",
+        "isTvSeries": false,
+        "poster":"https://i.ibb.co/3B4sC16/dont-breathe.png",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
+      }
+    ]
+  }

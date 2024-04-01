@@ -1,0 +1,401 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+.center-screen {
+  height: 100%;
+}
+
+/*Header*/
+header .favorites {
+  text-align: end;
+  padding-top: 20px;
+}
+.favorite-count {
+  padding-left: 10px;
+}
+
+header .favorites span:nth-child(1) {
+  color: #be123c;
+}
+
+header .favorites span:nth-child(2) {
+  font-weight: 700;
+}
+
+/*Login*/
+.login-page-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-wrap {
+  display: flex;
+  min-width: 37%;
+  justify-content: center;
+}
+
+.login-card {
+  border: 2px solid #d1d5db;
+  border-radius: 16px;
+  padding: 33px;
+  width: 100%;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.login-form {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 21px 31px;
+  color: #000;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 32px;
+  margin-top: 32px;
+}
+
+.login-form input::placeholder {
+  color: #000;
+  font-size: 32px;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.submit-button-primary {
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  padding: 21px 32px;
+  width: 100%;
+  font-size: 32px;
+  text-align: center;
+  background: none;
+  margin-top: 32px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.submit-button-primary:hover{
+  background: #3b82f6;
+  color: #fff;
+}
+/*Login End*/
+
+/*Search Components*/
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search-area {
+  position: relative;
+  width: 27%;
+}
+
+.search-area .search-input {
+  width: 100%;
+  border: 2px solid #d1d5db;
+
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.search-area .search-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.movies {
+  padding-top: 65px;
+}
+
+.page-title h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/*Movies*/
+
+/*Movies Filter*/
+.movies-inner {
+  padding-top: 64px;
+}
+.movies-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-types-inner {
+  display: flex;
+}
+
+.filter-nav {
+  display: flex;
+}
+
+.filter-nav li {
+  padding-left: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.filter-nav li {
+  color: #0ea5e9;
+  font-size: 18px;
+}
+.filter-nav li img {
+  padding-left: 7px;
+}
+
+.filter-nav li svg {
+  margin-left: 8px;
+}
+
+.filter-sub {
+  border-radius: 8px;
+  border: 2px solid #7dd3fc;
+  margin-top: 17px;
+  /* display: none; */
+  min-width: 130px;
+  /* display: none; */
+  position: absolute;
+  top: 17px;
+  z-index: 1;
+  left: 0;
+  background: #fff;
+}
+
+.filter-sub li {
+  font-size: 14px;
+  padding: 8px 10px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.filter-sub li.active {
+  background: #7dd3fc;
+  border: 2px solid #7dd3fc;
+}
+
+.filter-sub li:hover {
+  background: #7dd3fc;
+  border: 2px solid #7dd3fc;
+  /* cursor: url(../img/cursor-hover.svg), auto; */
+}
+
+/*Movie List*/
+
+.stamp-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 10px;
+}
+.stamp-box .tv-series {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  background: rgba(151, 136, 126, 0.6);
+  border-radius: 12px;
+  line-height: 2;
+}
+.add-favorite {
+  width: 30px;
+  height: 30px;
+  background: rgba(151, 136, 126, 0.6);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  transition: all 0.5s;
+}
+.add-favorite.active {
+  background: red;
+}
+.add-favorite.active svg path ,.add-favorite:hover svg path{
+  fill: #fff;
+}
+.movies-list {
+  display: grid;
+  margin-top: 44px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 64px 70px;
+}
+@media (max-width:1090px){
+  .search-area{
+    width: 65%;
+  }
+  .movies-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:768px){
+  .movies-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:500px){
+  .movies-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.movie-item {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+.movie-img-area img {
+  width: 100%;
+}
+
+.movie-desc-content {
+  padding-top: 12px;
+  line-height: 2;
+}
+
+.movie-date {
+  font-size: 12px;
+  color: #9ca3af;
+  display: block;
+}
+
+.movie-title {
+  font-size: 18px;
+  color: #111827;
+}
+
+.movie-imdb span {
+  color: #111827;
+  padding-left: 10px;
+}
+
+.movie-type {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.footer-wrap {
+  text-align: center;
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-list-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 48px;
+  color: #111827;
+}
+
+footer p {
+  color: #6b7280;
+}
+
+/*Detail*/
+.movie-detail {
+  margin-top: 10px;
+}
+
+.movie-banner{
+  position: relative;
+}
+.movie-detail-wrap {
+  padding-top: 62px;
+}
+
+.detail-title {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+}
+
+.movie-content {
+  padding-top: 64px;
+  padding-bottom: 32px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.movie-content h2 {
+  font-size: 36px;
+  color: #000;
+}
+.error-message {
+  padding-top: 20px;
+  color: #be123c;
+}
