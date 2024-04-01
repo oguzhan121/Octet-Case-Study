@@ -16,7 +16,7 @@ const MovieDetail = () => {
   useEffect(() => {
     (async () => {
       try {
-        const { data } = await axios.get<MoviesEntity[]>(`http://localhost:3031/movies/${id}`);
+        const { data } = await axios.get<MoviesEntity[]>(`${process.env.REACT_APP_CUSTOM_BASE_URL}/movies/${id}`);
         setMovieDetail(data);
       } catch {
         console.log("hata.");

@@ -9,15 +9,6 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  // <BrowserRouter>
-
-  //   <Provider store={store}>
-  //     <Header />
-  //       <App />
-  //     <Footer />
-  //   </Provider>
-  // </BrowserRouter>
-
   <Provider store={store}>
     <React.StrictMode>
       <React.Suspense fallback={<div>Loading...</div>}>

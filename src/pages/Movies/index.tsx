@@ -24,13 +24,10 @@ export default function Movies() {
     (state: any) => state.movies.filteredMovies
   );
   const dispatch = useDispatch();
-
   useEffect(() => {
     (async () => {
       try {
-        const { data } = await axios.get<MoviesEntity[]>(
-          "http://localhost:3031/movies"
-        );
+        const { data } = await axios.get<MoviesEntity[]>(`${process.env.REACT_APP_CUSTOM_BASE_URL}/movies`);
         dispatch(setMovies(data));
       } catch {
         console.log("hata.");
